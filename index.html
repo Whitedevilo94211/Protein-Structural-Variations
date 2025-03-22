@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creation of a Database for
+Protein Structural Variations
+in Cancer Mutations</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="p1.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Creation of a Database for
+Protein Structural Variations
+in Cancer Mutations</h1>
+  </header>
+
+  <main class="main-container">
+    <!-- Left Column: Tools Menu -->
+    <aside class="left-column">
+      <nav class="tools-menu">
+        <h2>Tools</h2>
+        <ul>
+          <li><button id="blastMenuBtn">BLAST</button></li>
+          <li><button id="keggMenuBtn">KEGG</button></li>
+          <li><button id="primerMenuBtn">Primer Designing Tool</button></li>
+          <li><button id="translateMenuBtn">Transcription & Translation Tool</button></li>
+          <li><button id="complementMenuBtn">Complementary Tool</button></li>
+          <li><button id="uniprotMenuBtn">UniProt</button></li>
+          <li><button id="chemblMenuBtn">ChEMBL</button></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Center Column: Info + Search -->
+    <section class="center-column">
+      <div class="alz-info">
+        <h2>Creation of a Database for
+Protein Structural Variations
+in Cancer Mutations</h2>
+        <p>
+          Creating a database for protein structural variations in cancer mutations is a significant step in advancing cancer research and precision medicine. Such a database would compile detailed information about somatic mutations in cancer, focusing on how these mutations alter protein structures and their functional implications. It could include data on amino acid substitutions, clustering of mutations in 3D protein models, and their association with specific cancer types. Tools like COSMIC, CancerVar, and mutation3D already provide resources for studying somatic mutations and their structural impacts, offering insights into functional hotspots and aiding in hypothesis generation. This database would be invaluable for identifying potential therapeutic targets and understanding the molecular mechanisms driving cancer progression
+        </p>
+        <p>
+          This database provides critical information on  protein structural variations in cancer mutations, including key genes and proteins involved,post-translational modifications (PTMs), cellular localization of proteins, and 3D structures.
+        </p>
+        <div class="more-info-link">
+          <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5315576/" target="_blank">
+            Click this link to know more about Disease
+          </a>
+        </div>
+      </div>
+
+      <div class="search-section">
+        <label for="geneSearch">Search patientID/age/gender/bmi:</label>
+        <input type="text" id="geneSearch" placeholder="Enter search term" />
+        <button id="searchButton">Search</button>
+      </div>
+
+      <!-- Dynamic content area for tools output -->
+      <div id="dynamicContent" class="dynamic-content"></div>
+    </section>
+
+    <!-- Right Column: Images -->
+    <aside class="right-column">
+      <div class="image-card">
+        <img src="crc_3 (1).jpg" alt="Brain MRI Disease" />
+      </div>
+      <div class="image-card">
+        <img src="crc_1.png" alt="Neurodegeneration Illustration" />
+      </div>
+      <div class="image-card">
+        <img src="crc_2.png" alt="Brain Model " />
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Research & Resource Portal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
